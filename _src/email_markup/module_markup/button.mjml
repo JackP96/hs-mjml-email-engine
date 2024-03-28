@@ -1,0 +1,14 @@
+<mjml>
+    <mj-include path="../required_markup/head.mjml" />
+    <mj-body>
+        <!-- begin module -->
+        {% if module.link.url.href and module.linkText %}<mj-section background-color="#F9FBFB" padding="10px 10% 30px">
+            <mj-column >
+                <mj-button href="{{module.link.url.href}}" background-color="#55C567" font-weight="600">
+                {{module.linkText}}
+                </mj-button>
+            </mj-column>
+        </mj-section>{% endif %}
+        <!-- end module -->
+    </mj-body>
+</mjml>

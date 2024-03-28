@@ -33,7 +33,7 @@
   "homepage": "https://github.com/douglaswelcome/hs-mjml-email-engine#readme",
   "devDependencies": {
     "@hubspot/cli": "^3.0.9",
-    "mjml": "^4.6.3",
+    "mjml": "^4.14.1",
     "onchange": "^7.0.2"
   },
   "dependencies": {

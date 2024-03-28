@@ -2,31 +2,30 @@
     <mj-include path="../required_markup/head.mjml" />
     <mj-body>
         <!-- begin module -->
-        <mj-wrapper padding="0px 15px 15px 15px">
-            <mj-section css-class="round-border">
-                <mj-column background-color="#fff" vertical-align="bottom">
-                    <mj-text>
-                        <h1>Here's your footer</h1>
-                        <p>Get started Sonny</p>
-                        <p >
-                            {{ site_settings.company_name }}
-                            {{ site_settings.company_street_address_1 }}
-                            {{ site_settings.company_street_address_2 }}
-                            {{ site_settings.company_city }}
-                            {{ site_settings.company_state }}]
-                            {{ site_settings.company_zip }}
-                            {{ site_settings.company_country }}
-                            <br/>
-                            You received this email because you are subscribed to {{ subscription_name }} from {{ site_settings.company_name }}.
-                            <br/>
-                            Update your <a class="hubspot-mergetag" data-unsubscribe="true" href="{{ unsubscribe_link }}">email preferences</a> to choose the types of emails you receive.
-                            <br/>
-                            <a class="hubspot-mergetag" data-unsubscribe="true" href="{{ unsubscribe_link_all }}">Unsubscribe from all future emails</a>
-                        </p>
-                    </mj-text>
-                </mj-column>
-            </mj-section>
-        </mj-wrapper>
+        <mj-section>
+      <mj-column width="100%" padding="20px 0px">
+        <mj-text align="center">Connect with Us</mj-text>
+        <mj-social>
+          <mj-social-element background-color="#00313E" padding="0px 5px" target="_blank" href="https://www.facebook.com/DavidsonHomesLLC/" name="facebook-noshare"></mj-social-element>
+          <mj-social-element background-color="#00313E" padding="0px 5px" target="_blank" href="https://www.instagram.com/davidsonhomesllc/" name="instagram-noshare"></mj-social-element>
+          <mj-social-element background-color="#00313E" padding="0px 5px" target="_blank" href="https://www.linkedin.com/company/davidson-homes-llc/" name="linkedin-noshare"></mj-social-element>
+          <mj-social-element background-color="#00313E" padding="0px 5px" target="_blank" href="https://www.pinterest.com/davidsonhomesllc/" name="pinterest-noshare"></mj-social-element>
+        </mj-social>
+        <mj-text padding="20px 5%" font-size="10px" color="#00475A" line-height="150%">
+          Copyright 2024 {{ site_settings.company_name }}. {{ subscription_name }}. All rights reserved. {{ site_settings.company_name }} reserves the right to adjust items listed
+          without prior notice or obligation. Such items may include (but are not limited to) options, included features and community information, pricing, amenities, terms or availability. Features, options, floor plans, elevations, colors, sizes and photographs are for illustration purposes and will vary from homes built. See new home sales consultant for details. Equal Housing Opportunity.
+        </mj-text>
+        <mj-text align="center" padding="0px 50px" font-size="10px" color="#00475A" line-height="150%">
+          Our mailing address is:<br />
+          {{ site_settings.company_street_address_1 }}
+          {{ site_settings.company_street_address_2 }}<br />
+          {{ site_settings.company_city }},  {{ site_settings.company_state }} {{ site_settings.company_zip }}</mj-text>
+        <mj-text padding="20px 5%" font-size="10px" color="#00475A" line-height="150%">
+          Want to stop receiving these emails? You can
+          <a class="hubspot-mergetag" style="color: #00475A; text-decoration: underline" data-unsubscribe="true" href="{{ unsubscribe_link }}">unsubscribe</a> 
+          from this list. <a class="hubspot-mergetag" style="color: #00475A; text-decoration: underline" data-unsubscribe="true" href="{{ unsubscribe_link_all }}">Unsubscribe from all future emails</a>
+        </mj-text>
+      </mj-column>
         <!-- end module -->
     </mj-body>
 </mjml>

@@ -6,5 +6,5 @@
         "type": "richtext",
         "inline_help_text": "",
         "help_text": "",
-        "default": null
+        "default": "<h2 style='text-align: center'>SUBHEADING HERE</h2><h1 style='text-align:center; margin-top: 4px;'>Main Heading Here</h1><p>Body Copy Here</p>"
 }]

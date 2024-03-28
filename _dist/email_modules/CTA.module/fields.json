@@ -1,0 +1,12 @@
+[
+        {
+                "name": "richtext",
+                "label": "Rich text field",
+                "required": false,
+                "locked": false,
+                "type": "richtext",
+                "inline_help_text": "",
+                "help_text": "",
+                "default": "<p style='font-size: 16px; font-weight: 500; color: white'>Interested in Similar Communities?<br/><span style='font-size:14px;color:#ededed'>Call <a href='tel:8779992009' style='color: #55C567'>(877) 999-2009</a> today for more information.</span></p>"
+        }
+]

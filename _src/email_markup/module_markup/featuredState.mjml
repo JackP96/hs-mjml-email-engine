@@ -1,0 +1,23 @@
+<mjml>
+  <mj-include path="../required_markup/head.mjml" />
+  <mj-body>
+    <!-- begin module -->
+    <mj-image src="{{ module.state.properties.featured_image_url }}" alt="{{ module.state.title }}" />
+    <mj-text>
+    <span>{{module.state||pprint}}</span>
+    {% set cars = crm_objects("state", "limit=2","title") %}
+    {# To see all of the properties your object during development, print it to the page with the |pprint filter #} 
+    
+    <div class="car__listing">
+        {% for car in cars.results %}
+            <div class="car__card">
+            {{car||pprint}}
+            </div>
+    {% endfor %}
+    </div>
+      <h3 class="team-member__name">{{ module.state.properties.title }}</h3>
+      <a href="{{module.state.properties.url}}" class="team-member__bio">{{ module.state.properties.url }}</a>
+    </mj-text>
+    <!-- end module -->
+  </mj-body>
+</mjml>

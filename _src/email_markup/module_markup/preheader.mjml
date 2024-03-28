@@ -1,0 +1,14 @@
+<mjml>
+  <mj-include path="../required_markup/head.mjml" />
+  <mj-body>
+    <!-- begin module -->
+    {% if module.richtext %}<mj-section background-color="#F9FBFB" padding="10px 0px">
+      <mj-column>
+        <mj-text align="center">
+          {{module.richtext}} {% if module.link.url.href and module.linkText %}<a style="color: #55C567" href="{{module.link.url.href}}">{{module.linkText}}</a>{% endif %}
+        </mj-text>
+      </mj-column>
+    </mj-section>{% endif %}
+    <!-- end module -->
+  </mj-body>
+</mjml>

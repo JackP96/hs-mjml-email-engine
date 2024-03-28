@@ -11,9 +11,14 @@
   "show_loading" : false,
   "type": "image",
   "default": {
-    "size_type" : "auto",
-    "src": "https://source.unsplash.com/random",
-    "alt": null,
-    "loading": "disabled"}
+    "size_type" : "exact",
+    "src": "https://cdn.sanity.io/images/2nureyi3/production/012a268560728045a78a38aba83f93e6e5341354-5000x3338.jpg?w=1280&h=720&q=85&fit=crop&auto=format",
+    "loading" : "lazy",
+    "width" : 1280,
+    "height" : 600,
+    "max_width" : 1280,
+    "max_height" : 720,
+    "alt": null
+  }
   }
 ]

@@ -1,10 +1,10 @@
 <!-- begin module -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="black" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:black;background-color:black;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:black;background-color:black;width:100%;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#F9FBFB" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="background:#F9FBFB;background-color:#F9FBFB;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F9FBFB;background-color:#F9FBFB;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;padding-top:1px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:10px 0px;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
@@ -13,6 +13,11 @@
                       <td style="vertical-align:top;padding:0px;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <div style="font-family:Poppins, Montserrat, Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;line-height:21px;text-align:center;color:#00313E;">{{module.richtext}} {% if module.link.url.href and module.linkText %}<a style="color: #55C567" href="{{module.link.url.href}}">{{module.linkText}}</a>{% endif %}</div>
+                              </td>
+                            </tr>
                           </tbody>
                         </table>
                       </td>

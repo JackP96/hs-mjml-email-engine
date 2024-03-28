@@ -1,12 +1,12 @@
 <mjml>
-    <mj-include path="../required_markup/head.mjml" />
-    <mj-body>
-      <!-- begin module -->
-            <mj-section >
-                <mj-column >      
-                    <mj-image css-class="header-logo" src="https://thehustle.co/wp-content/uploads/2020/03/cropped-thehustle_logo_300w.png" href="https://thehustle.co/home/" align="center" padding-bottom="0px" padding-top="0px"></mj-image>
-                </mj-column>
-            </mj-section>
+  <mj-include path="../required_markup/head.mjml" />
+  <mj-body>
+    <!-- begin module -->
+    <mj-section background-color="#00313E">
+      <mj-column>
+        <mj-image src="https://mcusercontent.com/54c31aa1145c061456f294c87/images/db815bfc-578c-dfe0-3013-6d7f0a3340ba.png" align="center" width="200px" alt="Davidson Homes Logo" />
+      </mj-column>
+    </mj-section>
     <!-- end module -->
-</mj-body>
+  </mj-body>
 </mjml>

@@ -1,7 +1,7 @@
 <!-- begin module -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#00313E" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="background:#00313E;background-color:#00313E;margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#00313E;background-color:#00313E;width:100%;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#F9FBFB" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="background:#F9FBFB;background-color:#F9FBFB;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F9FBFB;background-color:#F9FBFB;width:100%;">
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
@@ -18,8 +18,8 @@
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                   <tbody>
                                     <tr>
-                                      <td style="width:200px;">
-                                        <img alt="Davidson Homes Logo" src="https://mcusercontent.com/54c31aa1145c061456f294c87/images/db815bfc-578c-dfe0-3013-6d7f0a3340ba.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="200" height="auto" />
+                                      <td style="width:600px;">
+                                        <img alt="{{module.image.alt}}" src="{{module.image.src}}" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600" height="auto" />
                                       </td>
                                     </tr>
                                   </tbody>

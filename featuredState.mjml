@@ -1,0 +1,17 @@
+<!-- begin module -->
+    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+      <tbody>
+        <tr>
+          <td style="width:600px;">
+            <img alt="{{ module.state.title }}" src="{{ module.state.properties.featured_image_url }}" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600" height="auto" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="font-family:Poppins, Montserrat, Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;line-height:21px;text-align:left;color:#00313E;"><span>{{module.state||pprint}}</span> {% set cars = crm_objects("state", "limit=2","title") %} {# To see all of the properties your object during development, print it to the page with the |pprint filter #} <div class="car__listing"> {% for car in cars.results %} <div class="car__card">
+          {{car||pprint}}
+        </div> {% endfor %} </div>
+      <h3 class="team-member__name">{{ module.state.properties.title }}</h3>
+      <a href="{{module.state.properties.url}}" class="team-member__bio">{{ module.state.properties.url }}</a>
+    </div>
+    <!-- end module -->

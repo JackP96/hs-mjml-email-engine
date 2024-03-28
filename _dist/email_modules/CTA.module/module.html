@@ -94,23 +94,28 @@
   </style>
 </head>
 
-<body style="word-spacing:normal;background-color:#D7E6EA;">
-  <div style="background-color:#D7E6EA;">
-    <div id="preview_text" style="display:none;font-size:1px;color:{{background_color}};line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">{% text "preview_text" label="Preview Text", value="", no_wrapper=True %}</div>
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<body style="word-spacing:normal;">
+  <div style="">
+    <!-- begin module -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#00313E" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="background:#00313E;background-color:#00313E;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#00313E;background-color:#00313E;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0px;padding-bottom:20px;padding-top:20px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:0px;">
+                      <td style="vertical-align:top;padding:40px 5%;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:0px;padding-top:0px;padding-bottom:0px;word-break:break-word;">
+                                <div style="font-family:Poppins, Montserrat, Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;line-height:1.5;text-align:center;color:white;">{{ module.richtext||pprint }}</div>
+                              </td>
+                            </tr>
                           </tbody>
                         </table>
                       </td>
@@ -124,7 +129,8 @@
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><![endif]--> {% block email-body %} {% endblock %}
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- end module -->
   </div>
 </body>
 

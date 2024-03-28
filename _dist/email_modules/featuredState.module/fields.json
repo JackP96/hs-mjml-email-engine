@@ -1,0 +1,12 @@
+[
+        {
+                "name" : "state",
+                "label" : "CRM object",
+                "required" : true,
+                "locked" : false,
+                "object_type" : "state",
+                "properties_to_fetch" : ["title", "description", "featured_image_url"],
+                "type" : "crmobject"
+              }
+        ]
+    
